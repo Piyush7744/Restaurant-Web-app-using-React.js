@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+:root{
+    --font-base:'Cormorant Upright',serif;
+}
+
+.app__header{
+    background-color: var(--color-black);
+}
+
+.app__header_h1{
+    font-family: 'Cormorant Upright',serif;
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-size: 70px;
+}
+
+.app__header_img{
+    width: 50%;
+}
+
+.section_padding{
+    padding-top: 0px;
+    padding-left: 80px;
+    padding-bottom: 64px;
+    padding-right: 80px;
+}
